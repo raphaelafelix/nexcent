@@ -1,0 +1,51 @@
+@import url('./global.css');
+
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0px;
+    background-color: var(--color-neutral-silver);
+}
+
+.logo-header img{
+    width: 154px;
+    height: 24px;
+
+}
+
+.nav-header ul{
+    list-style: none; /* tira as bolinhas da lista */
+    display: flex; /* para deixar os itens lado a lado */
+    gap: 50px; /* separar os itens */
+
+}
+
+.nav-header ul li a{
+    color: var(--color-neutral-black);
+    font-weight: var(--font-body2-weight-regular);
+    transition: 0.3s;
+}
+
+.nav-header ul li a:hover{
+    color: var(--color-primary-primary);
+    text-decoration: underline;
+}
+
+.container-btn-header button{
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container-btn-header .btn-login a{
+    color: var(--color-primary-primary);
+}
+
+.container-btn-header .btn-sign-up{
+    background-color: var(--color-primary-primary);
+}
+
+.container-btn-header .btn-sign-up a {
+    background-color: var(--color-neutral-white);
+}
