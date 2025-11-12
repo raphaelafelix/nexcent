@@ -54,3 +54,23 @@ a{
     text-decoration: none;
 }
 
+p{
+    color: var(--color-neutral-grey);
+}
+
+.btn-primary{
+    background-color: var(--color-primary-primary);
+    padding:14px 32px;
+    border-radius: 4px;
+    align-self: flex-start;
+    margin-top: 16px;
+}
+
+.btn-primary a{
+    color: var(--color-neutral-white);
+}
+h2{
+    color:var(--color-neutral-d_grey);
+    font-size: var(--font-headline-2-size);
+    font-weight: var(--font-headline-2-weight);
+}
