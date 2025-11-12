@@ -113,9 +113,19 @@ main{
 .manage-community{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    align-items: center;
     text-align: center;
-    margin: 40px 0px;
+    gap: 16px;
+}
+
+.content-manage-community{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.content-manage-community h2{
+    width: 542px;
 }
 
 /* FIM manage ur entire community */
