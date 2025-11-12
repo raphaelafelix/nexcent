@@ -107,7 +107,17 @@ main{
 }
 
 
-
 /* fim our clients */
+
+/* manage ur entire community */
+.manage-community{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+/* FIM manage ur entire community */
 
 
