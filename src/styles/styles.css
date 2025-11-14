@@ -110,22 +110,52 @@ main{
 /* fim our clients */
 
 /* manage ur entire community */
-.manage-community{
-    display: flex;
+
+
+.manage-system{
+    display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     text-align: center;
     gap: 16px;
 }
 
-.content-manage-community{
-    display: flex;
+.content-manage-system{
+    display:flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.content-manage-community h2{
+.content-manage-system h2{
+    font-family: var(--font-family);
     width: 542px;
+
+}
+
+.cards-container{
+    display: flex;
+    justify-content: column;
+    gap: 127.5px;
+}
+
+
+.cards-container article{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 299px;
+    padding: 24px 24px;
+    box-shadow: 0 2px 4px rgba(174, 172, 172, 0, 0.53);
+}
+
+.cards-container article:hover{
+    box-shadow: 0 2px 4px rgba(83, 83, 83, 0.53);
+    transform: translateY(-8px);
+}
+
+.cards-container article h3{
+    font-size: var(--font-headline-3-size);
+    color: var(--color-neutral-d_grey);
 }
 
 /* FIM manage ur entire community */
