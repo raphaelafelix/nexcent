@@ -161,3 +161,32 @@ main{
 /* FIM manage ur entire community */
 
 
+/* pellentesque */
+
+.pellentesque{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-neutral-silver);
+    gap: 32px;
+    padding: 32px 0px;
+    margin-top: 94.6px;
+}
+
+.pellentesque h2{
+    text-align: center;
+    font-size: var(--font-headline-1-size);
+    width: 722px;
+
+}
+
+.pellentesque a{
+    display: flex;
+    align-self: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--color-neutral-white);
+}
+
+/* fim pellentesque */
+

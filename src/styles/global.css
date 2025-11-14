@@ -35,14 +35,14 @@
 
     --color-color_action-warning: #FBC02D;
     --color-color_action-error: #E53835;
-    --color-color_action-success:#2E7D31;
+    --color-color_action-success: #2E7D31;
 
 
     /* Configurações de Fontes */
     --font-family: "inter";
     --font-headline-1-size: 64px;
     --font-headline-2-size: 36px;
-    --font-headline-2-weight: 600px;
+    --font-headline-2-weight: 600;
     --font-headline-4-size: 20px;
     --font-body2-weight-regular: 400;
     --font-body3-size: 14px;
